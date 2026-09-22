@@ -57,4 +57,3 @@ class Blastoise(Creature):
 
     def attack(self):
         return f"{self.name} used Hydro Pump!"
-
