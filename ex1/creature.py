@@ -27,7 +27,8 @@ class Venusaur(HealCapability, Creature):
         return f"{self.name} used Petal Dance!"
 
     def heal(self, target: Creature) -> str:
-        return f"{self.name} heals {target} and its allies for a large amount"
+        return f"{self.name} heals {target.name} "
+    "and its allies for a large amount"
 
 
 class Riolu(TransformCapability, Creature):
